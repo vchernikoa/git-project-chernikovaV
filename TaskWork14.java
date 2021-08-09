@@ -15,7 +15,7 @@ public class TaskWork14 {
         }
         int min = mas[0];
         int max = mas[0];
-        for (int i = 0; i<mas.length-1; i++){
+        for (int i = 0; i<mas.length; i++){
             min = Math.min(min, mas[i]);
             max = Math.max(max, mas[i]);
         }
